@@ -101,3 +101,14 @@ body{
   background: #2690d4;
  
  }
+ /*footer section*/
+ #main-footer{
+   padding: 2.0em;
+   background-color: black;
+   color:#fff;
+   text-align: center;
+ }
+ #main-footer a{
+text-decoration: none;
+color: #2690d4;
+}
