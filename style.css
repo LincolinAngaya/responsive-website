@@ -57,7 +57,6 @@ body{
 #section-a .content-wrap,
 #section-b.content-wrap,
 #section-c .content-wrap,
-#section-d .content-wrap
 {
   padding: 0 0.5em;
 }
@@ -89,5 +88,16 @@ body{
   background: white;
   color: #333;
   padding: 2em;
-  
+
 }
+/*section-d*/
+
+#section-d .box{
+  padding: 2em;
+  color: #fff;
+ 
+ }
+ #section-d .box:first-child{
+  background: #2690d4;
+ 
+ }
