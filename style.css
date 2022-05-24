@@ -53,6 +53,17 @@ body{
   padding-top: 100px;
   padding-bottom: 0;
 }
-#showcase .content-wrap{
+#showcase .content-wrap,
+#section-a .content-wrap,
+#section-b.content-wrap,
+#section-c .content-wrap,
+#section-d .content-wrap
+{
   padding: 0 0.5em;
+}
+/*section-a*/
+#section-a{
+  background:#3333 ;
+  color:#eaeaea ;
+  padding-bottom: 2em;
 }
