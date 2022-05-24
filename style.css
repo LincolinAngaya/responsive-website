@@ -67,7 +67,7 @@ body{
   color:#eaeaea ;
   padding-bottom: 2em;
 }
-/*section-a*/
+/*section-b*/
 #section-b{
   padding: 2em 1em 1em;
 }
@@ -83,4 +83,11 @@ body{
 }
 .card-content{
   padding: 1.5em;
+}
+/*section-c*/
+#section-c{
+  background: white;
+  color: #333;
+  padding: 2em;
+  
 }
