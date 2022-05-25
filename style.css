@@ -122,4 +122,22 @@ color: #2690d4;
     columns: 2;
     column-gap: 2em;
   }
+  #section-a .content-text p{
+    padding-top: 0;
+  }
+  .content-wrap,
+  #section-b ul{
+    grid-column: 2/4;
+  }
+  .box,#main-footer div{
+    grid-column: span 2;
+  }
+  #section-b ul{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  #section-b li{
+    width: 32%;
+  }
 }
