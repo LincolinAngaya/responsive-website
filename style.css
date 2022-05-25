@@ -111,4 +111,15 @@ body{
  #main-footer a{
 text-decoration: none;
 color: #2690d4;
+}/*media query*/
+@media(min-width:700px){
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto,25em))1fr;
+
+  }
+  #section-a .content-text{
+    columns: 2;
+    column-gap: 2em;
+  }
 }
